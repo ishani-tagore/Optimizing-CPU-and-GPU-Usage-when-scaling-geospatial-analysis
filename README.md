@@ -1,6 +1,8 @@
 # Optimizing CPU and GPU Usage-when-scaling-geospatial-analysis
 ## Overview
-For a High Performance Compute course at the University of Chicago, I was given the problem of efficiently scaling compute resources while analysing a satellite imagery data that was growing in size. We are analyzing the degree of vegetation in an area by computing a metric known as Normalized Difference Vegetation Index" (NDVI) (based on spectral wavelengths for each pixel in the image below). We compare computational processing speeds between: 
+For a High Performance Compute course at the University of Chicago, I was given the problem of efficiently scaling compute resources while analysing a satellite imagery data that was growing in size. We are analyzing the degree of vegetation in an area by computing a metric known as Normalized Difference Vegetation Index" (NDVI) (based on spectral wavelengths for each pixel in the image below). 
+![](https://github.com/ishani-tagore/Optimizing-CPU-and-GPU-Usage-when-scaling-geospatial-analysis/blob/b17e2a820b4e65f4d0ddd4a773f57088816dbd72/Land_Usage_image.png)
+We compare computational processing speeds between: 
 1. NDVI computed serially using a single CPU and single GPU respectively
 2. The NDVI computation parallelized using a  CPU and GPU respectively
 3. The computation in #2 performed as the data is scaled 50x, 100x and 150x respectively.
